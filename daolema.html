@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导了吗 - 记录你的导发时刻</title>
+    <link rel="stylesheet" href="daolema.css">
+</head>
+<body>
+    <div class="container">
+        <h1>导了吗？</h1>
+        <div class="calendar">
+            <div class="calendar-header">
+                <button id="prev-month"><</button>
+                <h2 id="current-month-year"></h2>
+                <button id="next-month">></button>
+            </div>
+            <div class="calendar-body">
+                <div class="weekdays">
+                    <div>日</div>
+                    <div>一</div>
+                    <div>二</div>
+                    <div>三</div>
+                    <div>四</div>
+                    <div>五</div>
+                    <div>六</div>
+                </div>
+                <div class="days" id="calendar-days"></div>
+            </div>
+        </div>
+        <div class="stats">
+            <h2>统计信息</h2>
+            <div class="stat-item">
+                <span>本周导发次数：</span>
+                <span id="week-count">0</span> 次
+            </div>
+            <div class="stat-item">
+                <span>总共导发次数：</span>
+                <span id="total-count">0</span> 次
+            </div>
+            <div class="stat-item">
+                <span>今年导发次数：</span>
+                <span id="year-count">0</span> 次
+            </div>
+            <div class="stat-item">
+                <span>还建议导吗：</span>
+                <span id="recommendation">-</span>
+            </div>
+        </div>
+        <div class="record-controls">
+            <button id="add-record" class="control-btn add-btn">+ 增加一次</button>
+            <button id="remove-record" class="control-btn remove-btn">- 减少一次</button>
+        </div>
+    </div>
+    <script src="daolema.js"></script>
+</body>
+</html>
