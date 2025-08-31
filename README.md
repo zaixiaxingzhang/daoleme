@@ -15,8 +15,7 @@
 .
 ├── daolema.html      # 主页面文件
 ├── daolema.css       # 样式文件
-├── daolema.js        # 主要的JavaScript逻辑文件
-└── IFLOW.md          # 项目说明文档
+└── daolema.js        # 主要的JavaScript逻辑文件
 ```
 
 ## 核心功能
